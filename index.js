@@ -88,45 +88,38 @@ inquirer.prompt([
         licenseButton = "[![License](https://img.shields.io/badge/License-None%20-lightgrey.svg)]()";
     }
 
-    let writeThis = 
-    `# ${data.title}
-    ${licenseButton}
-    ## Description
-    ${data.description}
-    ## Table of Contents
-    - [Description](#Description)
-    - [Installation Instructions](#Installation-Instructions)
-    - [Usage Information](#Usage-Information)
-    - [Contribution Guidelines](#Contribution-Guidelines)
-    - [Test Instructions](#Test-Instructions)
-    - [Licence](#Licence)
-    - [Questions](#Questions)
-    ## Installation Instructions
-    ${data.installation}
-    ## Usage Information
-    ${data.usage}
-    ## Contribution Guidelines
-    ${data.contributing}
-    ## Test Instructions
-    ${data.tests}
-    ## License
-    ${licenseUsed}
-    ## Questions
-    For further information, please feel free to contact me on either of the links below
-    GitHub: https://github.com/${data.github}
-    Email: ${data.email}`;
+let writeThis = 
+`# ${data.title}
+${licenseButton}
+## Description
+${data.description}
+## Table of Contents
+- [Description](#Description)
+- [Installation Instructions](#Installation-Instructions)
+- [Usage Information](#Usage-Information)
+- [Contribution Guidelines](#Contribution-Guidelines)
+- [Test Instructions](#Test-Instructions)
+- [Licence](#Licence)
+- [Questions](#Questions)
+## Installation Instructions
+${data.installation}
+## Usage Information
+${data.usage}
+## Contribution Guidelines
+${data.contributing}
+## Test Instructions
+${data.tests}
+## License
+${licenseUsed}
+## Questions
+For further information, please feel free to contact me on either of the links below
+GitHub: https://github.com/${data.github}
+Email: ${data.email}`;
 
-    writeThisWithoutTab = writeThis.replace(/\t/g, "");
-
-    console.log(writeThis);
-    console.log(writeThisWithoutTab);
-    
-
-
-    // fs.writeFile(
-    // "COPYME.md", writeThisWithoutTab, function(){
-    //     console.log("Success! COPYME.md Generated!") 
-    // });
+    fs.writeFile(
+    "COPYME.md", writeThis, function(){
+        console.log("Success! COPYME.md Generated!") 
+    });
 });
 
 // Badges sourced from shields.io/category/license
