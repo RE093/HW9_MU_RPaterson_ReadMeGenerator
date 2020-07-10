@@ -21,6 +21,10 @@ The aim of this project was to create a README generator utilizing Node.js and E
 6. Copy the license.txt file you want to use for your own project into your project folder. 
 7. Note: If you want to use a different license than listed. Make sure to add a .txt file for that license and update the links in the index.js file to ensure correct functionality.
 
+![InstallOne](https://github.com/RE093/HW9_MU_RPaterson_ReadMeGenerator/blob/master/images/install.png "contents")
+
+![InstallTwo](https://github.com/RE093/HW9_MU_RPaterson_ReadMeGenerator/blob/master/images/installtwo.png "install")
+
 ## Usage Information
 1. Using the command line, navigate your way to the folder containing your index.js file.
 2. Enter 'node index.js' into your command line.
@@ -28,7 +32,13 @@ The aim of this project was to create a README generator utilizing Node.js and E
 4. Open the COPYME.md file created and copy the contents into the README.md file for you project.
 5. All done!
 
-[![ReadMe Generator Working](http://img.youtube.com/vi/pXmRnKoo6YM/0.jpg)](http://www.youtube.com/watch?v=pXmRnKoo6YM)
+#### Watch the video of it working below:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=pXmRnKoo6YM
+" target="_blank"><img src="http://img.youtube.com/vi/pXmRnKoo6YM/0.jpg" 
+alt="ReadMe Generator Working" width="240" height="180" border="10" /></a>
+
+![Example](https://github.com/RE093/HW9_MU_RPaterson_ReadMeGenerator/blob/master/images/deployed.png "Example of ReadME")
 
 ## Contribution Guidelines
 none
