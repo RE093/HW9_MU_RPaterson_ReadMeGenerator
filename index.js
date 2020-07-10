@@ -112,7 +112,7 @@ ${data.tests}
 ## License
 ${licenseUsed}
 ## Questions
-For further information, please feel free to contact me on either of the links below
+For further information, please feel free to contact me on either of these links:
 GitHub: https://github.com/${data.github}
 Email: ${data.email}`;
 
