@@ -28,6 +28,8 @@ The aim of this project was to create a README generator utilizing Node.js and E
 4. Open the COPYME.md file created and copy the contents into the README.md file for you project.
 5. All done!
 
+[![ReadMe Generator Working](http://img.youtube.com/vi/pXmRnKoo6YM/0.jpg)](http://www.youtube.com/watch?v=pXmRnKoo6YM)
+
 ## Contribution Guidelines
 none
 
